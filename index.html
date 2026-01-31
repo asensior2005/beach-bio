@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="BEACH - Where the night flows. Exclusive nightlife and sauna experiences.">
+    <title>BEACH</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="container">
+        <header class="header">
+            <img src="logo.png" alt="BEACH Logo" class="logo-img">
+            <p class="tagline">Where the night flows</p>
+        </header>
+
+        <nav class="links">
+            <a href="https://saunabeach.com" class="link-item" target="_blank" rel="noopener noreferrer">
+                <div class="icon-wrapper">
+                    <!-- Calendar / Events Icon -->
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="3" y="4" width="18" height="18" rx="2" ry="2" stroke="currentColor" stroke-width="2"/>
+                        <line x1="16" y1="2" x2="16" y2="6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="8" y1="2" x2="8" y2="6" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+                        <line x1="3" y1="10" x2="21" y2="10" stroke="currentColor" stroke-width="2"/>
+                    </svg>
+                </div>
+                <span class="link-text">Events & Sessions</span>
+            </a>
+
+            <!-- Prices Section -->
+            <button class="link-item" id="prices-toggle">
+                <div class="icon-wrapper">
+                    <!-- Price / Ticket Icon -->
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1 -2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <line x1="7" y1="7" x2="7.01" y2="7" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <span class="link-text">Prices & Entry</span>
+                <!-- Chevron Icon for indication -->
+                <svg class="chevron" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                </svg>
+            </button>
+            
+            <div class="prices-details" id="prices-content">
+                <div class="price-row">
+                    <span class="day">Lunes</span>
+                    <span class="price">10€</span>
+                </div>
+                <div class="price-row">
+                    <span class="day">Martes <small>(Día del cliente)</small></span>
+                    <span class="price">5€</span>
+                </div>
+                <div class="price-row">
+                    <span class="day">Miércoles</span>
+                    <span class="price">15€</span>
+                </div>
+                <div class="price-row">
+                    <span class="day">Jueves</span>
+                    <span class="price">15€</span>
+                </div>
+                <div class="price-row">
+                    <span class="day">Viernes, Sábado y Domingo</span>
+                    <span class="price">20€</span>
+                </div>
+            </div>
+
+            <a href="https://www.google.com/maps/search/BEACH+Sauna" class="link-item" target="_blank" rel="noopener noreferrer">
+                <div class="icon-wrapper">
+                    <!-- Map Pin Icon -->
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <circle cx="12" cy="10" r="3" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <span class="link-text">Location</span>
+            </a>
+
+            <a href="https://t.me/n8npropio" class="link-item" target="_blank" rel="noopener noreferrer">
+                <div class="icon-wrapper">
+                    <!-- Telegram Icon -->
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M21.198 2.433a2.242 2.242 0 0 0-1.022.215l-18.6 7.406a2.51 2.51 0 0 0 .6 4.7l4.137 1.34L15.65 8.16a.466.466 0 0 1 .632.686l-7.587 7.045v3.66a1.21 1.21 0 0 0 2.126.8l2.9-2.88 5.6 4.25a2.12 2.12 0 0 0 3.32-1.63l3.35-16.1a2.38 2.38 0 0 0-2.39-2.58l-2.403.022z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <span class="link-text">Telegram Channel</span>
+            </a>
+
+            <a href="#" class="link-item">
+                <div class="icon-wrapper">
+                    <!-- Instagram Icon -->
+                    <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <rect x="2" y="2" width="20" height="20" rx="5" ry="5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                        <line x1="17.5" y1="6.5" x2="17.51" y2="6.5" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </div>
+                <span class="link-text">Instagram Profile</span>
+            </a>
+        </nav>
+        
+        <footer class="footer">
+            <p>&copy; 2026 BEACH. All rights reserved.</p>
+        </footer>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
